@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(83, 83, 75);
+    justify-content: space-around;
+    
+}
+header ul li{
+    display: -ms-inline-grid;
+}
+header ul{
+   display: flex;
+   list-style: none;
+}
+header li{
+    margin-right: 45px;
+    margin-top: 19px;
+    
+}
+header li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header li a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+section{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+h1{
+    color: rgb(44, 41, 41);
+}
+.numero{
+    padding: 15px;
+}
+.uno{
+    width: 23%;
+}
+.dos{
+    width: 23%;
+}
+.tres{
+    width: 26%;
+}
+.dos input{
+    height: 50px;
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.dos .mensaje{
+    height: 90px;
+    width: 90%;
+}
+
+input[type="submit"]{
+    background-color: rgb(185, 196, 41);
+    color: white;
+}
+.tres iframe{
+    margin: 30px;
+}
+
+footer{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    background-color: rgb(109, 93, 124);
+    height: 150px;
+}
+#resto, #resto2{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+footer img{
+    margin-top: 20px;
+}
